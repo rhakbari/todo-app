@@ -1,5 +1,7 @@
 ## A NestJS Todo App 
 
+Practice app using RESTful API with NestJS.
+
 
 ## Installation
 
