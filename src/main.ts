@@ -8,7 +8,7 @@ async function bootstrap() {
     .setTitle('Todo App APIs')
     .setDescription('Todo App using nestjs')
     .setVersion('1.0')
-    .addTag('todo')
+    // .addTag('todo')
     .build();
  
     const document = SwaggerModule.createDocument(app, config);
