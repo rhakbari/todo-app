@@ -5,10 +5,10 @@ export class Task {
     @PrimaryGeneratedColumn()
     id: number;
 
-    @Column({ default: null})
+    @Column({type:"varchar", default: null})
     taskTitle: string;
 
-    @Column()
+    @Column({type:"varchar", default: null})
     description: string;
 
 }
